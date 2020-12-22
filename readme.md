@@ -7,5 +7,7 @@
 
 `cat nginx.conf  | perl -pe 's/\$/\\\$/g'  | perl -pe 's/\n/\\n/g' | perl -pe 's/ +/\ /g' > nginx.minified`
 
+**Environment Variable used for nginx.conf**
 
+`**NGINX_CONF**="Your nginx.conf Minified"`
 
