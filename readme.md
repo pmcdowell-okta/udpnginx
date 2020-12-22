@@ -9,5 +9,5 @@
 
 **Environment Variable used for nginx.conf**
 
-`**NGINX_CONF**="Your nginx.conf Minified"`
+`NGINX_CONF="Your nginx.conf Minified"`
 
