@@ -1,8 +1,11 @@
 
+**Rebuild the image**
 
-docker build -t udpnginx .  
+`docker build -t udpnginx .`  
 
-cat nginx.conf  | perl -pe 's/\$/\\\$/g'  | perl -pe 's/\n/\\n/g' | perl -pe 's/ +/\ /g' > nginx.minified
+**Prep Nginx.conf for Environment Variable**
+
+`cat nginx.conf  | perl -pe 's/\$/\\\$/g'  | perl -pe 's/\n/\\n/g' | perl -pe 's/ +/\ /g' > nginx.minified`
 
 
 
